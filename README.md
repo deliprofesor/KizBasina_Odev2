@@ -52,8 +52,14 @@ Bu proje, Wisconsin Breast Cancer Dataset (`breast-cancer.csv`) kullanılarak me
 
 ## Model Performans Analizi
 
+<img width="640" height="480" alt="confusion_matrix_linear_svm" src="https://github.com/user-attachments/assets/b91002d4-1a9d-42b5-8823-2a9abe2d47b2" />
+
 - **Linear SVM** yüksek doğruluk, precision ve recall değerleri gösterdi.
 - Hiperparametre optimizasyonuyla **Radial SVM** modeli iyileştirildi (C=10, gamma=0.1).
+  
+<img width="640" height="480" alt="roc_curve_radial_svm" src="https://github.com/user-attachments/assets/4d6ecdaf-fab2-45c6-8fbc-a4253cabacbc" />
+
+  
 - ROC-AUC skorları özellikle Radial SVM için ~0.95 olarak yüksek çıktı.
 - SMOTE kullanımı dengesiz veri sorununu gidererek model performansını artırdı.
 
@@ -62,10 +68,30 @@ Bu proje, Wisconsin Breast Cancer Dataset (`breast-cancer.csv`) kullanılarak me
 ## Görselleştirmeler
 
 - **Scatter Plot:** İki önemli özellik (`radius_mean`, `texture_mean`) ile sınıflar ayrıldı.
+
+<img width="1000" height="500" alt="scatter_radius_texture" src="https://github.com/user-attachments/assets/0589df73-069d-4bbf-a33f-f38b3cccdecf" />
+
+
 - **Pairplot:** Çoklu özellikler arasındaki ilişkiler ve sınıf dağılımları incelendi.
+
+<img width="824" height="741" alt="pairplot" src="https://github.com/user-attachments/assets/6c16e093-6195-4a17-a6e0-00bcda71a476" />
+
 - **Confusion Matrix:** Modellerin doğru/yanlış sınıflandırma sayıları gösterildi.
+  
+<img width="640" height="480" alt="confusion_matrix_radial_svm" src="https://github.com/user-attachments/assets/693b7e4a-c1c0-43e3-ab38-e7570e4c933b" />
+<img width="640" height="480" alt="confusion_matrix_polynomial_svm" src="https://github.com/user-attachments/assets/f4dcb807-f5e2-45f1-a85a-1ffb53032310" />
+<img width="640" height="480" alt="confusion_matrix_linear_svm" src="https://github.com/user-attachments/assets/b986e366-df11-46c4-8edc-151130dad967" />
+<img width="640" height="480" alt="confusion_matrix_sigmoid_svm" src="https://github.com/user-attachments/assets/de7b34cd-37d9-4bc0-b0f2-e4a7992eb0c5" />
+
+  
 - **ROC Eğrisi:** Model ayrım gücü grafikle ifade edildi.
+- 
+<img width="640" height="480" alt="roc_curve_radial_svm" src="https://github.com/user-attachments/assets/7a6509e4-2a48-477d-b580-ce34db5d3401" />
+
+  
 - **Doğruluk Karşılaştırması:** Modellerin test doğrulukları bar grafikte sunuldu.
+- 
+<img width="640" height="480" alt="accuracy_comparison" src="https://github.com/user-attachments/assets/8f5dc94d-9f1f-40dd-977a-bce74847724c" />
 
 ---
 
@@ -98,12 +124,5 @@ Bu proje, Wisconsin Breast Cancer Dataset (`breast-cancer.csv`) kullanılarak me
 
 ---
 
-## İletişim
 
-Projeyle ilgili soru, öneri ve geri bildirim için:  
-**ilknur@example.com**
-
----
-
-*Teşekkürler!*
 
