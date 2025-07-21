@@ -15,7 +15,6 @@ Bu proje, Wisconsin Breast Cancer Dataset (`breast-cancer.csv`) kullanılarak me
 - Hedef değişken: `diagnosis` (B: Benign - iyi huylu, M: Malignant - kötü huylu)
 - Diğer sütunlar kanser hücre özelliklerini sayısal olarak temsil eder.
 - `id` ve `Unnamed: 32` sütunları çıkarıldı.
-- Eksik veri bulunmamaktadır.
 
 ---
 
@@ -93,12 +92,12 @@ Bu proje, Wisconsin Breast Cancer Dataset (`breast-cancer.csv`) kullanılarak me
 
   
 - **ROC Eğrisi:** Model ayrım gücü grafikle ifade edildi.
-- 
+  
 <img width="640" height="480" alt="roc_curve_radial_svm" src="https://github.com/user-attachments/assets/7a6509e4-2a48-477d-b580-ce34db5d3401" />
 
   
 - **Doğruluk Karşılaştırması:** Modellerin test doğrulukları bar grafikte sunuldu.
-- 
+  
 <img width="640" height="480" alt="accuracy_comparison" src="https://github.com/user-attachments/assets/8f5dc94d-9f1f-40dd-977a-bce74847724c" />
 
 ---
