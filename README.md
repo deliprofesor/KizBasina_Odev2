@@ -78,6 +78,10 @@ Bu proje, Wisconsin Breast Cancer Dataset (`breast-cancer.csv`) kullanılarak me
 
 - **Confusion Matrix:** Modellerin doğru/yanlış sınıflandırma sayıları gösterildi.
 
+## Confusion Matrices of Different SVM Models
+
+Aşağıda dört farklı SVM modelinin karışıklık matrisleri 2 satır 2 sütun halinde gösterilmiştir:
+
 | Linear SVM                 | Radial SVM                 |
 |---------------------------|----------------------------|
 | ![Linear](plots/linear_confusion_matrix.png) | ![Radial](plots/radial_confusion_matrix.png) |
