@@ -78,19 +78,17 @@ Bu proje, Wisconsin Breast Cancer Dataset (`breast-cancer.csv`) kullanılarak me
 
 - **Confusion Matrix:** Modellerin doğru/yanlış sınıflandırma sayıları gösterildi.
 
-## Confusion Matrices of Different SVM Models
+# Radial SVM   
+<img width="640" height="480" alt="confusion_matrix_radial_svm" src="https://github.com/user-attachments/assets/8216a06d-b51f-4f17-9291-055ee23dd5c6" />
 
-Aşağıda dört farklı SVM modelinin karışıklık matrisleri 2 satır 2 sütun halinde gösterilmiştir:
+# Polynomial SVM 
+<img width="640" height="480" alt="confusion_matrix_polynomial_svm" src="https://github.com/user-attachments/assets/566312ec-8056-4f23-993e-9b4629804ecd" />
 
-| Linear SVM                 | Radial SVM                 |
-|---------------------------|----------------------------|
-| ![Linear](plots/linear_confusion_matrix.png) | ![Radial](plots/radial_confusion_matrix.png) |
+# Linear SVM    
+<img width="640" height="480" alt="confusion_matrix_linear_svm" src="https://github.com/user-attachments/assets/7376e884-7f2f-459b-a18a-f42e4e15dfc4" />
 
-| Polynomial SVM             | Sigmoid SVM                |
-|---------------------------|----------------------------|
-| ![Polynomial](plots/polynomial_confusion_matrix.png) | ![Sigmoid](plots/sigmoid_confusion_matrix.png) |
-
-
+# Sigmoid SVM     
+<img width="640" height="480" alt="confusion_matrix_sigmoid_svm" src="https://github.com/user-attachments/assets/fd68c84d-f753-4689-8455-0dc590aa94b8" />
 
 
   
