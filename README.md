@@ -77,11 +77,17 @@ Bu proje, Wisconsin Breast Cancer Dataset (`breast-cancer.csv`) kullanılarak me
 <img width="824" height="741" alt="pairplot" src="https://github.com/user-attachments/assets/6c16e093-6195-4a17-a6e0-00bcda71a476" />
 
 - **Confusion Matrix:** Modellerin doğru/yanlış sınıflandırma sayıları gösterildi.
-  
-<img width="640" height="480" alt="confusion_matrix_radial_svm" src="https://github.com/user-attachments/assets/693b7e4a-c1c0-43e3-ab38-e7570e4c933b" />
-<img width="640" height="480" alt="confusion_matrix_polynomial_svm" src="https://github.com/user-attachments/assets/f4dcb807-f5e2-45f1-a85a-1ffb53032310" />
-<img width="640" height="480" alt="confusion_matrix_linear_svm" src="https://github.com/user-attachments/assets/b986e366-df11-46c4-8edc-151130dad967" />
-<img width="640" height="480" alt="confusion_matrix_sigmoid_svm" src="https://github.com/user-attachments/assets/de7b34cd-37d9-4bc0-b0f2-e4a7992eb0c5" />
+
+
+  | Linear SVM                 | Radial SVM                 |
+|---------------------------|----------------------------|
+| ![Linear](plots/linear_confusion_matrix.png)   | ![Radial](plots/radial_confusion_matrix.png) |
+
+| Polynomial SVM             | Sigmoid SVM                |
+|---------------------------|----------------------------|
+| ![Polynomial](plots/polynomial_confusion_matrix.png) | ![Sigmoid](plots/sigmoid_confusion_matrix.png) |
+
+
 
   
 - **ROC Eğrisi:** Model ayrım gücü grafikle ifade edildi.
