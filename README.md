@@ -1,6 +1,7 @@
-# KizBasina_Odev2
-
 # Breast Cancer Classification Project
+
+<img width="1092" height="618" alt="image" src="https://github.com/user-attachments/assets/a2d1e7b8-e93d-45f6-be94-d7dde3c83282" />
+
 
 ## Proje Hakkında
 
